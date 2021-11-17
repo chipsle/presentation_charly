@@ -1,0 +1,161 @@
+header{
+
+	font-size: 50px;
+	color: rgb(50, 50, 50);
+	text-align: center;
+	border: solid black 2px;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 20px;
+}
+
+@media (max-width 960px) {
+  .image {
+    width: 700px;
+  }
+ .container { 
+  width: 700px;
+  }
+  .boite1 {
+  width: 700px; 
+  }
+  .boite4 {
+  width: 700px; 
+  }
+  .boite2 {
+  width: 700px; 
+  }
+  .boite3 {
+  width: 700px; 
+  }
+}
+
+@media (max-width 720px) {
+  .image {
+    width: 500px;
+  }
+ .container { 
+  width: 500px;
+  }
+  .boite1 {
+  width: 500px; 
+  }
+  .boite4 {
+  width: 500px; 
+  }
+  .boite2 {
+  width: 500px; 
+  }
+  .boite3 {
+  width: 500px; 
+  }
+}
+
+@media (max-width 540px) {
+  .image {
+    width: 300px;
+  }
+ .container { 
+  width: 300px;
+  }
+  .boite1 {
+  width: 300px; 
+  }
+  .boite4 {
+  width: 300px; 
+  }
+  .boite2 {
+  width: 300px; 
+  }
+  .boite3 {
+  width: 300px; 
+  }
+}
+
+h1 {
+	font-size: 25px;
+  text-align: center;
+  border: 2px orangered;
+  margin: 15px;
+  padding: 20px;
+}
+h2 {
+	text-decoration: underline;
+	font-size: 25px;
+	color: mediumpurple; 
+	text-align: center;
+	border: 2px black;
+    margin: 15px;
+    padding: 20px;
+}
+body {
+	background: rgb(230, 230, 230);
+	font-family: Helvetica;
+	font-size: 16px;
+	text-align: center;
+	border: 2px black;
+    margin: 15px;
+    padding: 20px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	padding: 20px;
+}
+.container {
+  border: solid black 5px;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightgrey;
+}
+
+.boite1 {
+  border: solid black 2px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  background-color: rgb(180,180,180);
+}
+
+.boite2 {
+ border: solid black 2px;
+ margin: 5px;
+ padding: 10px;
+ border-radius: 20px;
+ padding-bottom: 30px;
+ margin-bottom: 20px;
+ background-color: rgb(180,180,180);
+}
+
+.boite3 {
+  border: solid black 2px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  background-color: rgb(180,180,180);
+}
+.boite4 {
+  border: solid black 2px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  background-color: rgb(180,180,180);
+}
+
+img {
+  border-radius: 120px;
+} 
+
+
+
+
